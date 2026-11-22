@@ -72,6 +72,7 @@ main:focus { outline:none; }
 .repository-links li + li { border-top:1px solid var(--soft-border); }
 .repository-links a { display:block; padding:9px 0; font-size:calc(13px * var(--font-scale)); text-decoration:none; }
 .repository-links a:hover { text-decoration:underline; }
+.project-list > h1 { margin-bottom:0; }
 .project-list .project-entry:first-child { border-top:0; }
 .project-entry { padding:25px 0; border-top:1px solid var(--soft-border); }
 .entry-heading { display:flex; justify-content:space-between; align-items:baseline; gap:20px; margin-bottom:12px; }
@@ -124,10 +125,10 @@ main:focus { outline:none; }
 .toolbox-skill-list { padding:0 16px; }
 .toolbox-skill-list > div { padding:10px 0; }
 .toolbox-skill-list dt,.toolbox-skill-list dd { font-size:calc(12px * var(--font-scale)); }
-.cert-list { padding:4px 24px; list-style:none; margin:0; }
-.cert-list li { padding:15px 0; display:flex; align-items:baseline; justify-content:space-between; gap:16px; font-size:calc(14px * var(--font-scale)); }
+.cert-list { padding:4px 16px; list-style:none; margin:0; }
+.cert-list li { padding:8px 0; display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:baseline; gap:12px; color:var(--fg); font-size:calc(13px * var(--font-scale)); line-height:1.6; }
 .cert-list li + li { border-top:1px solid var(--soft-border); }
-.cert-list li > span:last-child { color:var(--muted); font-size:calc(12px * var(--font-scale)); }
+.cert-list li > span:last-child { color:var(--muted); font-size:calc(12px * var(--font-scale)); white-space:nowrap; }
 .training h3 { margin:10px 0; font-size:calc(16px * var(--font-scale)); font-weight:500; }
 .config-panels { display:grid; gap:12px; }
 .settings-panel { padding:24px; }

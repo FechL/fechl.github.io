@@ -149,13 +149,14 @@ January 2024–present · Universitas Brawijaya, East Java.
 
 Indonesian — Native. English — Intermediate.
 
-## Contact
+## Contact & social
 
 I’m happy to talk about projects, research, and engineering.
 
 - [fawwasaliy11@gmail.com](mailto:fawwasaliy11@gmail.com)
 - [LinkedIn / fawwasaliy](https://linkedin.com/in/fawwasaliy)
 - [GitHub / FechL](https://github.com/FechL)
+- [Instagram / @fwslyl](https://www.instagram.com/fwslyl/)
 
 ## Toolbox
 
@@ -178,7 +179,7 @@ Open [localhost:5173](http://localhost:5173).
 - `img/organizations/`: locally stored Experience logos with their sources documented in the folder README; the IYAC logo is supplied by the portfolio owner.
 - `SKILL.md`: simple terminal design guidance referencing the active components in `../english-tracker/`. Content updates preserve the design.
 
-The overview tab is rendered from HTML and JavaScript; this Markdown file is not fetched into the page. The README tab contains an introduction card with an Education section, including the university, degree, description, and GPA. The Education date/location line is omitted, and GPA sits beside the degree, wrapping naturally on narrow screens. Two compact panels sit side by side below it: Selected repositories lists linked project names, and Professional experience lists organization names with links to the Experience tab. Certifications remains in a separate card. Continuous learning, Teams & community, and the closing contact message are omitted from the README tab; team details remain in Experience. The sidebar contains Profile, Contact, and Toolbox; the Focus card has been removed. On screens up to 900px, cards appear in this order: Profile, README (including Education), Selected repositories, Professional experience, Certifications, Contact, and Toolbox. The DOM moves the existing Profile card at the breakpoint to keep reading and keyboard order consistent; the desktop sidebar is restored on wider screens. The website’s technical skills catalog is in Toolbox, with PID Control and Gemini API omitted; there is no separate Technical skills card. About & skills is no longer a separate tab. Projects and professional experience share the same data across the overview and their dedicated tabs.
+The overview tab is rendered from HTML and JavaScript; this Markdown file is not fetched into the page. The README tab contains an introduction card with an Education section, including the university, degree, description, and GPA. The Education date/location line is omitted, and GPA sits beside the degree, wrapping naturally on narrow screens. Two compact panels sit side by side below it: Selected repositories lists linked project names, and Professional experience lists organization names with links to the Experience tab. Certifications remains in a separate card. Continuous learning, Teams & community, and the closing contact message are omitted from the README tab; team details remain in Experience. The sidebar contains Profile, Contact & social, and Toolbox & skills.md; the Focus card has been removed. On screens up to 900px, cards appear in this order: Profile, README (including Education), Selected repositories, Professional experience, Certifications, Contact & social, and Toolbox & skills.md. The DOM moves the existing Profile card at the breakpoint to keep reading and keyboard order consistent; the desktop sidebar is restored on wider screens. The website’s technical skills catalog is in Toolbox, with PID Control and Gemini API omitted; there is no separate Technical skills card. About & skills is no longer a separate tab. Projects and professional experience share the same data across the overview and their dedicated tabs.
 
 Appearance settings offer 14 themes, four fonts, and text sizes from 90% to 130%, stored in `fawwas-theme`, `fawwas-font`, and `fawwas-font-size`. Hash links support direct navigation and browser history; legacy `#portfolio`, `#about`, and `#contact` links remain supported. `#about` opens the Education section inside the README card, and `#technical-skills` opens Toolbox.
 
