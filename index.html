@@ -1,192 +1,104 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Adds-On CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="text/css" href="favicon.ico">
-
-    <title>My Portfolio</title>
-  </head>
-  <body class="mt-5">
-
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-                <a class="navbar-brand" href="index.html">Fawwas Aliy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
-                </div>
-            </div>
-        </div>
+<html lang="en" data-theme="jellybeans" data-font="geist" data-font-size="100">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="Fawwas Aliy — Computer Engineering student at Brawijaya University. Working across robotics software, AI research, data engineering, and cloud infrastructure.">
+  <meta property="og:title" content="Fawwas Aliy | Robotics, AI & Cloud">
+  <meta property="og:description" content="Fawwas Aliy — Computer Engineering, robotics software, AI research, and cloud computing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fechl.github.io/">
+  <link rel="icon" href="img/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/preferences.js"></script>
+  <script src="src/app.js" defer></script>
+  <title>Fawwas Aliy | Robotics, AI & Cloud</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="workspace">
+    <header class="topbar">
+      <a class="brand" href="#overview" aria-label="Fawwas Aliy, overview">FAWWAS<span class="brand-dot">.</span>ALIY</a>
+      <a class="github-profile" href="https://github.com/FechL" target="_blank" rel="noopener noreferrer">FechL</a>
+    </header>
+    <nav class="navigation" aria-label="Main navigation">
+      <div class="mobile-current"><button type="button" class="mobile-menu" aria-expanded="false" aria-controls="nav-links">← Menu</button><span id="mobile-page">README.md</span></div>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#overview" aria-current="page"><span>00 /</span> README.md</a>
+        <a class="nav-link" href="#projects"><span>01 /</span> Projects</a>
+        <a class="nav-link" href="#experience"><span>02 /</span> Experience</a>
+        <a class="nav-link config-link" href="#configuration"><span>99 /</span> Configuration</a>
+      </div>
     </nav>
+    <main id="main" tabindex="-1">
+      <section id="overview" class="page" aria-labelledby="overview-heading">
+        <div class="overview-grid">
+          <aside class="sidebar" aria-label="Profile and contact">
+            <section class="panel" id="profile-info"><div class="panel-head"><h2>Profile</h2></div><div class="side-body"><div class="profile-identity"><img class="profile-photo" src="img/profile.jpeg" alt="Portrait of Fawwas Aliy" width="72" height="72" decoding="async"><div class="profile-summary"><strong>Fawwas Aliy</strong><p>@FechL</p><p>Computer Engineering<br>Brawijaya University</p></div></div><p>Based in: Surakarta, Indonesia</p></div></section>
+            <section class="panel" id="contact-info">
+              <div class="panel-head"><h2>Contact</h2></div>
+              <div class="side-body contact-links">
+                <a href="mailto:fawwasaliy11@gmail.com"><svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span>fawwasaliy11@gmail.com</span></a>
+                <a href="https://linkedin.com/in/fawwasaliy" target="_blank" rel="noopener noreferrer"><svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7.5 10.5v7M7.5 7v.1M11.5 17.5v-7M11.5 13.5a3 3 0 0 1 6 0v4"/></svg><span>LinkedIn / fawwasaliy</span></a>
+                <a href="https://github.com/FechL" target="_blank" rel="noopener noreferrer"><svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.3-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.4 6.4-1.5 6.4-7a5.4 5.4 0 0 0-1.5-3.7 5.1 5.1 0 0 0-.1-3.8S17.7.6 15 2.5a13.4 13.4 0 0 0-7 0C5.3.6 4.1 1 4.1 1A5.1 5.1 0 0 0 4 4.8 5.4 5.4 0 0 0 2.5 8.5c0 5.5 3.3 6.6 6.4 7A3.4 3.4 0 0 0 8 18.1V22"/></svg><span>GitHub / FechL</span></a>
+              </div>
+            </section>
+            <section class="panel" id="toolbox"><div class="panel-head"><h2>Toolbox &amp; skills.md</h2></div><dl class="skill-list toolbox-skill-list"><div><dt>AI & data science</dt><dd>Deep Learning, NLP, Statistics</dd></div><div><dt>Robotics</dt><dd>ROS 2, Gazebo, Pixhawk, KiCad</dd></div><div><dt>Languages</dt><dd>Python, C / C++, JavaScript, SQL</dd></div><div><dt>Cloud & infrastructure</dt><dd>AWS, Cloudflare, Google Cloud, Docker</dd></div><div><dt>Tools & frameworks</dt><dd>Git, VS Code, Next.js, Power BI</dd></div><div><dt>Databases</dt><dd>PostgreSQL, MySQL, MongoDB</dd></div></dl></section>
+          </aside>
+          <div class="readme-column">
+          <article class="panel readme-article">
+            <div class="article-body">
+              <h1 id="overview-heading">Software, data &amp; autonomous systems.</h1>
+              <p class="intro">Hi, I’m <strong>Fawwas Aliy</strong> — a Computer Engineering student who enjoys connecting intelligent software with the real world.</p>
+              <p>I work across robotics, AI research, data engineering, and cloud computing. From underwater vehicle navigation to data pipelines and deployed web applications, I’m interested in systems that are useful, reliable, and built to scale.</p>
+              <p><a href="mailto:fawwasaliy11@gmail.com">Let’s connect</a> · <a href="#projects">Explore projects</a></p>
+              <h2>What I’m working on</h2>
+              <h3>Procurement transformation at Pertamina</h3>
+              <p>Supporting ContractGuard 360, contract monitoring, TKDN tracking, and emergency procurement workflows at PT Pertamina Patra Niaga.</p>
+              <p><a href="#experience">Read about my experience</a></p>
+              <p>Learning by building. Sharing what I learn along the way.</p>
+              <h2 id="education" tabindex="-1">Education</h2>
+              <h3>Brawijaya University</h3>
+              <p class="education-meta"><span class="role-label">Bachelor of Engineering · Computer Engineering</span><span class="education-gpa">GPA <strong>3.86 / 4.00</strong></span></p>
+              <p>I explore robotics software, AI research, data science, web development, and cloud computing through coursework, internships, and the Robotiik programming team.</p>
+            </div>
+          </article>
+          <div class="summary-grid">
+          <section class="panel selected-repositories" aria-labelledby="selected-heading">
+            <div class="panel-head"><h2 id="selected-heading">Selected repositories</h2><a class="panel-action" href="#projects">View project details</a></div>
+            <div class="side-body">
+              <ul class="repository-links" id="selected-projects"></ul>
+            </div>
+          </section>
+          <section class="panel" aria-labelledby="overview-experience-heading">
+            <div class="panel-head"><h2 id="overview-experience-heading">Professional experience</h2><a class="panel-action" href="#experience">View experience details</a></div>
+            <div class="side-body"><ul class="repository-links" id="overview-experience"></ul></div>
+          </section>
+          </div>
+          <section class="panel" id="certifications" tabindex="-1"><div class="panel-head"><h2>Certifications</h2></div><ul class="cert-list"><li><span>AWS Certified Cloud Practitioner</span><span>AWS</span></li><li><span>Software Engineer</span><span>BNSP</span></li><li><span>Data Science</span><span>BNSP</span></li><li><span>Google Advanced Data Analytics</span><span>Coursera</span></li><li><span>Foundations of Data Science & Deep Learning</span><span>Digitalent</span></li><li><span>The Power of Statistics</span><span>Coursera</span></li><li><span>Machine Learning Operations</span><span>Dicoding</span></li></ul></section>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="page" aria-labelledby="projects-heading" hidden>
+        <section class="panel"><div class="article-body project-list">
+          <h1 id="projects-heading">Things I’ve built.</h1>
+          <div id="project-list"></div>
+          <p class="more-projects"><a href="https://github.com/FechL?tab=repositories" target="_blank" rel="noopener noreferrer">More projects on GitHub</a></p>
+        </div></section>
+      </section>
+      <section id="experience" class="page" aria-label="Experience" hidden>
+        <div class="experience-layout"><div class="panel"><div class="panel-head"><h2>Professional experience</h2></div><div id="experience-list" class="timeline"></div></div><div class="panel"><div class="panel-head"><h2>Teams & community</h2></div><div class="community-body"><article><span class="eyebrow">JAN 2024 — PRESENT</span><div class="organization-heading"><img class="organization-logo" src="img/organizations/robotiik.jpeg" alt="" width="44" height="44" decoding="async"><div class="organization-summary"><h2>Robotiik FILKOM UB</h2><p class="role-label">Programming Core Team</p></div></div><p>Developing algorithms, integrating software with robotic systems, and supporting autonomous operation.</p><div class="progression"><div><span>3rd year</span><strong>Programming Core Team</strong></div><div><span>2nd year</span><strong>Programming Division Lead</strong><p>Mentored members in ROS 2 and robotics software integration.</p></div><div><span>1st year</span><strong>Programming Motion Staff</strong><p>Worked with ROS 2, Pixhawk, and PID control for navigation and stabilization.</p></div></div></article><article><span class="eyebrow">JUN 2022 — MAY 2023</span><div class="organization-heading"><img class="organization-logo" src="img/organizations/indonesian-youth-aerospace-community.jpeg" alt="" width="44" height="44" decoding="async"><div class="organization-summary"><h2>Indonesian Youth Aerospace Community</h2><p class="role-label">Director of Publications</p></div></div><p>Led publications and communications to share aerospace and aeronautics knowledge with Indonesia’s youth.</p></article></div></div></div>
+      </section>
+      <section id="configuration" class="page" aria-label="Configuration" hidden>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <img src="img/profile.png" class="rounded-circle img-thumbnail" width="30%" alt="">
-            <h1 class="display-4 mt-3">Fawwas Aliy</h1>
-            <p class="lead">Selamat datang di Website kami</p>
-        </div>
-    </div>
-
-    <!-- About -->
-    <section id="about" class="about">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col text-center">
-                <h2>About</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center text-justify">
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sequi neque magni reiciendis, molestiae fugit rem cupiditate quia, corrupti illo minus et in. Tempora doloremque, illum aliquam sit dolorum labore.</p>
-            </div>
-            <div class="col">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, porro consectetur? Sequi quasi molestiae deleniti natus sint! Unde debitis dolore vitae laborum quas, modi omnis temporibus rerum doloribus sapiente beatae?
-            </div>
-        </div>
-    </div>
-    </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio bg-light pb-4">
-    <div class="container">
-        <div class="row pt-4 mb-4">
-            <div class="col text-center">
-                <h2 class="">Portfolio</h2>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact pb-5">
-    <div class="container">
-        <div class="row pt-4 mb-4">
-            <div class="col text-center">
-                <h2>Contact</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="card text-white bg-info mb-3 text-center">
-                    <div class="card-body">
-                        <h4 class="card-title">Contact Us</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolor aliquid repellat at, totam quia.</p>
-                    </div>
-                </div>
-                <ul class="list-group">
-                    <li class="list-group-item"><h2>Location</h2></li>
-                    <li class="list-group-item">My Office</li>
-                    <li class="list-group-item">Jl. Fransito No.146, Surakarta</li>
-                    <li class="list-group-item">Central Java, Indonesia</li>
-                    <li class="list-group-item bg-info"></li>
-                </ul>
-            </div>
-            <div class="col-lg-7">
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email / Telp</label>
-                        <input type="text" class="form-control" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" class="form-control" style="height: 133px;"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-info">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white">
-        <div class="container">
-            <div class="row text-center pt-3">
-                <div class="col">
-                    <p>Copyright &copy 2021 Fawwas Aliy, Inc. All rights reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+        <div class="config-panels"><section class="panel settings-panel"><h2>Color scheme</h2><p>Select a terminal palette. Your choice is saved in this browser.</p><h3>Dark</h3><div id="dark-themes" class="option-grid"></div><h3>Light</h3><div id="light-themes" class="option-grid"></div></section><section class="panel settings-panel"><h2>Font family</h2><p>Choose a font for the interface and reading content.</p><div id="font-options" class="option-grid"></div></section><section class="panel settings-panel"><h2>Font size</h2><p>Adjust the text size across the interface and articles.</p><div id="size-options" class="option-grid"></div></section><div class="settings-footer"><button id="reset-preferences" class="button secondary" type="button">Reset preferences</button><span id="preferences-status" role="status" aria-live="polite"></span></div></div>
+      </section>
+    </main>
+  </div>
+  <noscript><p class="noscript">JavaScript is disabled. The overview and contact links above remain available; enable JavaScript to explore projects, experience, and appearance settings.</p></noscript>
+</body>
 </html>
